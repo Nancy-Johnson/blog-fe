@@ -1,4 +1,5 @@
 import "./header.css"
+import flower from "../img/autum.jpg"
 
 export default function Header(){
     return(
@@ -7,7 +8,11 @@ export default function Header(){
                 <span className="headerTitleSm">React & Node</span>
                 <span className="headerTitleLg">Blog</span>
            </div>
-           <img className="headerImg" src="/home/nancy/blog/blog-fe/marguerite-729510__340.jpg" alt="no img"/>
+           <img 
+           className="headerImg"
+            src={flower} 
+            alt="no img"
+            />
         </div>
     )
 }

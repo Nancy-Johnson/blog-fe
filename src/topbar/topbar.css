@@ -31,7 +31,7 @@
     border-radius: 50%;
     object-fit:cover;
 }
-.topList{
+.toplist{
     display: flex;
     justify-content: center;
     margin: 0;
