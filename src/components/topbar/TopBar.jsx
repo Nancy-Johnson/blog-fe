@@ -1,5 +1,5 @@
 import "./topbar.css"
-import flower from "../img/flower.jpg"
+import flower from "../../img/flower.jpg"
 
 export default function TopBar(){
     return (

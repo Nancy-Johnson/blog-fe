@@ -1,4 +1,4 @@
-import Post from "../Posts/posts"
+import Post from "../post/Post"
 import "./posts.css"
 
 export default function posts(){

@@ -1,5 +1,5 @@
 import "./header.css"
-import flower from "../img/autum.jpg"
+import flower from "../../img/autum.jpg"
 
 export default function Header(){
     return(

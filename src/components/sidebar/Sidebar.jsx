@@ -1,12 +1,14 @@
 import "./sidebar.css"
-import flower from "../img/chef.jpg"
+import flower from "../../img/chef.jpg"
 
 export default function Sidebar(){
     return(
         <div  className="Sidebar">
             <div className="sidebarItem">
                 <span className="sidebarTitle">ABOUT ME</span>
-                <img src={flower}
+                <img 
+                className="sidebarImg"
+                 src={flower}
                 alt="nothing"
                 />
                 <p>hello welcome to our website let's check it out here are more details you want to know more</p>
