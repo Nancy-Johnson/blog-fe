@@ -5,20 +5,25 @@ import TopBar from "./components/topbar/TopBar";
 /*import Settings from "./pages/settings/Settings";*/
 /*import Single from "./pages/single/Single";*/
 /*import Write from "./pages/write/Write";*/
-import { BrowserRouter as Router, Switch, Route, Link}  from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link}  from "react-router-dom";
 
 function App() {
   return (
     
-     <Router>
-     <TopBar/>
-     <Switch>
-      <Route path="/">
-        <Home />
-      </Route>
-     </Switch>
-    </Router>
+    <Router>
+       <Routes>
+       <Route path="/" element={<TopBar />} />
+   
+       </Routes>
       
+
+      <Routes>
+         <Route path="/" element={<Home />} />
+        
+       
+      </Routes>
+      <Link to="/"> </Link>
+</Router>
     
   );
 }
