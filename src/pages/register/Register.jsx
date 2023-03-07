@@ -1,10 +1,10 @@
 import "./register.css"
 
+
 export default function Register() {
     return(
         <div className="register">
           <span className="registerTitle">Register</span>
-
             <form className="registerForm">
                 <label>Username</label>
                 <input type="text" className="registerInput" placeholder="Enter your Username......" />
