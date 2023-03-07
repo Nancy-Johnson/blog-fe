@@ -36,14 +36,21 @@ export default function TopBar(){
                 alt="not working "
             />
                 ) : (
-                    <>
+                    <ul  className="topList">
+                        <li className="topListItem">
                     <Link className="link" to="/login">LOGIN</Link>
+                        </li>
+                        <li className="topListItem">
                     <Link className="link" to="/register">REGISTER</Link>
+                        </li>
+                        </ul>
+                
                 )
             }
             <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
-           
            </div>
+        
         </div>
     )
-}
+
+        }

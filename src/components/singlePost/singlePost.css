@@ -51,7 +51,7 @@
 .singlePostDesc{
     color: #666;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 20px;
 }
 
 .singlePostDesc::first-letter{
