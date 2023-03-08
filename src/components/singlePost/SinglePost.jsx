@@ -1,6 +1,6 @@
 import "./singlePost.css"
 import tajmahal from "../../img/tajmahal.jpg" 
-import { Link } from "react-router-dom"
+
 
 export default function SinglePost(){
         return(
@@ -50,8 +50,7 @@ export default function SinglePost(){
                      Dolores magni sapiente provident quo,
                      dolorem dignissimos? Cumque ullam ratione sint explicabo!
                 </p>
-              </div> 
-              <Link className="link" to="/single">More About</Link>
-            </div>
+        </div>
+        </div>
         ); 
 }

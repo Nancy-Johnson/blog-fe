@@ -40,10 +40,11 @@
     list-style : none;
 }
 .topListItem{
-    margin-right:20px;
-    font-size:18px;
+    margin-right:15px;
+    font-size:14px;
     font-weight: 300;
     cursor:pointer;
+    list-style: none outside none;
 }
 .topSearchIcon{
     font-size:18px;

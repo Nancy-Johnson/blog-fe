@@ -1,5 +1,6 @@
 import "./post.css"
 import feather from "../../img/feather.jpeg"
+import { Link } from "react-router-dom"
 
 export default function post(){
     return(
@@ -11,10 +12,11 @@ export default function post(){
             />
             <div className="postInfo">
                 <div className="postCats">
-                    <span className="postCat">Music</span>
+                <span className="postCat">Music</span>
                     <span className="postCat">Life</span>
                 </div>
-                <span className="postTitle">Lorem ipsum dolor sit amet </span>
+                <Link className="link" to="/Single">
+                <span className="postTitle">Lorem ipsum dolor sit amet </span>  </Link>
                 <hr/>
                 <span className="postDate">1 hour ago</span>
             </div>
