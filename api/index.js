@@ -3,12 +3,16 @@ const app = express();
 const dotenv = require("dotenv");
 const mongoose = require("mongoose")
 
+
 dotenv.config();
 
-mongoose.connect(process.env.MONGO_URI,{
-    useNewUrlParse : true,
-    useUnifieldTopology: true,
-    useCreateIndex: true,
+mongoose.connect(process.env.MONGO_URI, {
+
+  /*  useFindAndModify : false,
+    useNewUrlParser : true, 
+    useUnifiedTopology : true,
+    useCreateIndex : true,
+    */
 })
 .then(console.log("connected to MongoDB"))
 .catch((err) => console.log(err));
@@ -17,3 +21,4 @@ mongoose.connect(process.env.MONGO_URI,{
 app.listen("5000",()=>{
     console.log("Backend is running");
 })
+
